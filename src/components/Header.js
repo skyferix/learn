@@ -1,13 +1,15 @@
-import React, { Component } from 'react'
 
-export class Header extends Component {
-    render() {
-        return (
-            <div>
-                <h1>Hi form Header</h1>
-            </div>
-        )
-    }
+import React from 'react'
+import Button from 'react-bootstrap/Button';
+
+
+const Header = ({title}) => {
+    return (
+        <header className='header'>
+            <h1>{title}</h1>
+            <Button>a</Button>
+        </header>
+    )
 }
 
 export default Header
