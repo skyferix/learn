@@ -1,0 +1,15 @@
+.Navbar {
+  background-color: rgb(17, 17, 17);
+}
+
+.Link {
+  text-decoration: none;
+  color: gray;
+}
+.Link:hover,
+Link:active {
+  color: orange;
+}
+.Link:active {
+  color: orange;
+}
